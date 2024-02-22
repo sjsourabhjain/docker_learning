@@ -22,10 +22,10 @@ services:
     image: mysql:8.0.27
     container_name: mysql
     environment:
-      MYSQL_ROOT_PASSWORD: 'password'
-      MYSQL_DATABASE: docker_laravel
+      MYSQL_ROOT_PASSWORD: 'test'
+      MYSQL_DATABASE: test
       MYSQL_USER: test
-      MYSQL_PASSWORD: 'password'
+      MYSQL_PASSWORD: 'test'
     ports:
       - "3307:3306"
     volumes:
